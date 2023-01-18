@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+*+*
+{
+    margin-bottom: .5rem;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.progressBar
+{
+    width: 90%;
+    background-color: red;
+    height:1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-title
+{
+    font-weight: bold;
+}
+.skill-level
+{
+    border-radius: .5rem;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        height: 1rem;
+        background-color: aqua;
+}
+.skills-level-html {
+    width: 90%;
+}
+.skills-level-python {
+    width: 50%;
+}
